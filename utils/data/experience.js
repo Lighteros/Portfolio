@@ -1,20 +1,44 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
+    icon: "coolman",
+    title: 'Smart contract Engineer',
+    company: "Coolman's Universe",
+    duration: "(Mar 2024 - Apr 2024)"
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    icon: "starkmeta",
+    title: "Frontend Developer",
+    company: "Starkmeta AI",
+    duration: "(Dec 2023 - Feb 2024)"
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
+    icon: "drip",
+    title: "Full Stack Engineer",
+    company: "Forex Shark's",
+    duration: "(Jul 2023 - Nov 2023)"
+  },
+  {
+    id: 4,
+    icon: "forest",
+    title: "UI/UX design & developer",
+    company: "Forest Staking",
+    duration: "(Apr 2023 - Jul 2023)"
+  },
+  {
+    id: 5,
+    icon: "fixer",
+    title: "Full Stack Engineer",
+    company: "Fixer",
+    duration: "(Mar 2021 - Apr 2023)"
+  },
+  {
+    id: 6,
+    icon: "iqgeo",
+    title: "Full Stack Engineer",
+    company: "IQGeo Japan KK",
+    duration: "(May 2019 - Feb 2021)"
   }
 ]

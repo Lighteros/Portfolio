@@ -8,10 +8,10 @@ export const personalData = {
   address: 'Sendai, Miyagi, Japan',
   github: 'https://github.com/Lighteros',
   facebook: 'https://www.facebook.com',
-  linkedIn: '#',
+  linkedIn: 'https://www.linkedin.com/in/kaede-yukimura-72128a299',
   twitter: 'https://twitter.com/leodev722',
   stackOverflow: 'https://stackoverflow.com',
   leetcode: "https://leetcode.com/said3812/",
   devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  resume: ""
 }

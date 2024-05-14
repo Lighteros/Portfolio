@@ -7,6 +7,7 @@ import Experience from "./components/homepage/experience";
 import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
+import { projectData } from "@/utils/data/project";
 
 async function getData() {
   const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
@@ -23,7 +24,6 @@ async function getData() {
 };
 
 export default async function Home() {
-  const blogs = await getData();
 
   return (
     <>
@@ -33,7 +33,7 @@ export default async function Home() {
       <Skills />
       {/*<Projects />*/}
       <Education />
-      <Blog blogs={blogs} />
+      <Blog blogs={projectData} />
       <ContactSection />
     </>
   )
