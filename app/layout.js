@@ -14,7 +14,7 @@ export const metadata = {
   openGraph: {
     images: [
       {
-        url: '/preview.png',
+        url: 'https://portfolio-5qdwzwj81-lighteros-projects.vercel.app/opengraph-image.jpg',
         width: 630,
         height: 630,
         alt: 'Profile photo',
