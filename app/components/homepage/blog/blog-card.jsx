@@ -32,6 +32,9 @@ function BlogCard({ blog }) {
             </button>
           </Link>
         </div> */}
+        <div className='flex flex-wrap mb-2 text-sm text-[#e1fc48] pb-3 lg:pb-6 gap-1'>
+          {blog.tools.map((value, index) => <p className='p-1 border border-gray-600' key={index}>{value}</p>)}
+        </div>
       </div>
     </div>
   );
