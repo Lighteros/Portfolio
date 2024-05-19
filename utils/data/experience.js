@@ -17,8 +17,8 @@ export const experiences = [
     id: 3,
     icon: "drip",
     title: "Full Stack Engineer",
-    company: "Forex Shark's",
-    duration: "(Jul 2023 - Nov 2023)"
+    company: "Drip Finance",
+    duration: "(Aug 2023 - Nov 2023)"
   },
   {
     id: 4,
@@ -26,19 +26,19 @@ export const experiences = [
     title: "UI/UX design & developer",
     company: "Forest Staking",
     duration: "(Apr 2023 - Jul 2023)"
-  },
+  },,
   {
     id: 5,
-    icon: "fixer",
-    title: "Full Stack Engineer",
-    company: "Fixer",
-    duration: "(Mar 2021 - Apr 2023)"
+    icon: "soteria",
+    title: "Smart Contract Developer",
+    company: "Soteria Smart Contracts Inc",
+    duration: "(May 2022 - Mar 2023)"
   },
   {
     id: 6,
-    icon: "iqgeo",
+    icon: "fixer",
     title: "Full Stack Engineer",
-    company: "IQGeo Japan KK",
-    duration: "(May 2019 - Feb 2021)"
+    company: "Fixer",
+    duration: "(Mar 2019 - Mar 2022)"
   }
 ]
