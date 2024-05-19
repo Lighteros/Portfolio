@@ -2,16 +2,12 @@ export const personalData = {
   name: "Kaede",
   profile: '/profile.png',
   designation: "Software Developer",
-  description: "A dedicated full stack developer specializing in frontend design and development. With a passion for creating captivating user experiences, Bring a strong skill set in HTML, CSS, and JavaScript, along with expertise in frontend frameworks like React or Angular. Focuses in crafting visually stunning and seamless user interfaces that not only engage users but also provide intuitive navigation. Smart contract specialist building secure crypto products on EVM & Solana chains using Solidity & Rust.",
+  description: "Full Stack Developer with 8+ years of experience in designing, developing, and maintaining web applications. Proficient in front-end and back-end development, with expertise in programming design, development, and implementation using a range of technologies and programming languages. Collaborative team player with strong problem-solving skills and a proven track record of developing highly functional web applications. Certified in Full-Stack Web Development with React and Front End Web Development. Passionate about staying up-to-date with the latest technologies and trends in the industry.",
   email: 'webm07871@gmail.com',
-  phone: '+8801608797655',
   address: 'Sendai, Miyagi, Japan',
   github: 'https://github.com/Lighteros',
   facebook: 'https://www.facebook.com',
   linkedIn: 'https://www.linkedin.com/in/kaede-yukimura-72128a299',
   twitter: 'https://twitter.com/leodev722',
-  stackOverflow: 'https://stackoverflow.com',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1iPuRUYj-BnHfG9HQ3i5yDpkP09fbat6G/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1JL0oXQBWNuk-o8SjYu12UyL_oCM5m35J/view?usp=sharing"
 }
