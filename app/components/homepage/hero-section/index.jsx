@@ -8,6 +8,7 @@ import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload, MdOutlineEmail } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
 import { SiLeetcode } from "react-icons/si";
+import { SiLinktree } from "react-icons/si";
 
 function HeroSection() {
   return (
@@ -25,13 +26,20 @@ function HeroSection() {
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
             This is {' '}
-            <span className=" text-pink-500">{personalData.name}</span>
+            <span className=" text-pink-500">MOMO{personalData.name}</span>
             {` , I'm a Professional `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
             .
           </h1>
 
           <div className="my-12 flex items-center gap-5">
+            <Link
+              href="https://linktr.ee/leodev722"
+              target='_blank'
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
+            >
+              <SiLinktree size={30} />
+            </Link>
             <Link
               href={personalData.github}
               target='_blank'

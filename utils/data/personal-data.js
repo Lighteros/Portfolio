@@ -9,5 +9,5 @@ export const personalData = {
   facebook: 'https://www.facebook.com',
   linkedIn: 'https://www.linkedin.com/in/kaede-yukimura-72128a299',
   twitter: 'https://twitter.com/leodev722',
-  resume: "https://drive.google.com/file/d/1JL0oXQBWNuk-o8SjYu12UyL_oCM5m35J/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1cDy-PYz1MIpQnVOuyh-xCyV2uGRyuxwb/view?usp=sharing"
 }

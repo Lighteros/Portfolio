@@ -5,6 +5,7 @@ import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import { TbMailForward } from "react-icons/tb";
 import { toast } from 'react-toastify';
+import { TbPhoneCall } from 'react-icons/tb';
 
 function ContactWithoutCaptcha() {
   const [input, setInput] = useState({
@@ -39,6 +40,7 @@ function ContactWithoutCaptcha() {
     const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
 
     try {
+      console.log(serviceID, templateID, input, options)
       const res = await emailjs.send(serviceID, templateID, input, options);
 
       if (res.status === 200) {
@@ -122,6 +124,14 @@ function ContactWithoutCaptcha() {
             >
               <span>Send Message</span>
               <TbMailForward className="mt-1" size={18} />
+            </button>
+            <button
+              className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-5 md:px-12 py-2.5 md:py-3 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold"
+              role="button"
+              onClick={()=>{window.open("https://calendly.com/kaedeyukimura/project-discussion", "_blank")}}
+            >
+              <span>Book a Call</span>
+              <TbPhoneCall className="mt-1" size={18} />
             </button>
           </div>
         </div>
