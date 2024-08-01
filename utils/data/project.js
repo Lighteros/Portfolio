@@ -305,14 +305,6 @@ export const projectData = [
     },
     {
         id: 9,
-        name: "Calc Finance",
-        desc: "Payment protocol website for Calc Finance",
-        intro: "calcfinance",
-        url: "https://calc-finance-fe.vercel.app/",
-        tools: ["Next.js", "SCSS"]
-    },
-    {
-        id: 9,
         name: "Sora Mala",
         desc: "The Next Generation meme coin by Sora AJ",
         intro: "soramala",
