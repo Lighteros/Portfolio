@@ -49,6 +49,14 @@ export const projectData = [
     },
     {
         id: 9,
+        name: "Mach Exchange",
+        desc: "Fasted stablecoin swap & cross-chain platform for EVM networks.",
+        intro: "mach",
+        url: "https://app.mach.exchange/",
+        tools: ["React", "Wagmi/viem"]
+    },
+    {
+        id: 9,
         name: "AIOZ Network",
         desc: "DEPIN for Web3 & AI & Storage & Streaming.",
         intro: "aioz",
@@ -73,19 +81,27 @@ export const projectData = [
     },
     {
         id: 9,
+        name: "Paladin AI Tap Game",
+        desc: "Tap-to-Earn game developed for Paladin AI.",
+        intro: "paladinai",
+        url: "https://t.me/paladinai_tap_bot",
+        tools: ["Next.js", "Typescript", "Tailwindcss", "Node.js", "Telegram API"]
+    },
+    {
+        id: 9,
+        name: "Tap Squade",
+        desc: "Edited version of Paladin AI Tap Game",
+        intro: "tapsquade",
+        url: "https://t.me/paladinai_tap_bot",
+        tools: ["Next.js", "Typescript", "Tailwindcss", "Node.js", "Telegram API"]
+    },
+    {
+        id: 9,
         name: "Flappy Bee",
         desc: "Play to Earn Game onto the BNB Smart Chain with Flappy Bee!",
         intro: "flappybee",
         url: "https://app.flappybee.com/",
         tools: ["Solidity", "NFT", "web3"]
-    },
-    {
-        id: 5,
-        name: "Symblox",
-        desc: "Decentralized synthetic asset issuance and trading protocol.",
-        intro: "symblox",
-        url: "https://symblox.io/",
-        tools: ["Solidity", "React", "Wagmi/Rainbowkit", "Typescript", "Tailwindcss"]
     },
     {
         id: 6,
@@ -97,14 +113,6 @@ export const projectData = [
     },
     {
         id: 5,
-        name: "Gauss 0x",
-        desc: "A place where elite traders become your trading partners.",
-        intro: "gauss0x",
-        url: "https://www.gauss0x.com/",
-        tools: ["Solidity", "Next.js", "Wagmi/Rainbowkit", "Typescript", "Tailwindcss"]
-    },
-    {
-        id: 5,
         name: "AnimeSwap",
         desc: "Swap, farm, and earn on the Aptos, Sui.",
         intro: "animeswap",
@@ -113,11 +121,91 @@ export const projectData = [
     },
     {
         id: 5,
+        name: "Solak GPT",
+        desc: "Where cutting-edge AI meets DeFi. Our game-changing AI browser and Solak DeFi platform redefine the digital landscape.",
+        intro: "solak",
+        url: "https://solak.app/",
+        tools: ["Next.js", "Tailwindcss"]
+    },
+    {
+        id: 5,
+        name: "BlockFarms",
+        desc: "Redesign of blockfarms website, mining toolshop.",
+        intro: "blockfarms",
+        url: "https://block-farm-frontend.vercel.app/",
+        tools: ["Next.js", "Figma", "Tailwindcss"]
+    },
+    {
+        id: 5,
+        name: "Flourishing AI",
+        desc: "AI-powered system suggests personalized content based on user preferences",
+        intro: "flourish",
+        url: "https://flourishing-ai-front.vercel.app/",
+        tools: ["Next.js", "Tailwindcss", "Figma"]
+    },
+    {
+        id: 5,
+        name: "HundonSol",
+        desc: "The standout meme coin on Solana, featuring an engaging NFT Collection, metaverse game, own DEX, and AI solutions platform",
+        intro: "hund",
+        url: "https://www.hundonsol.com/",
+        tools: ["Next.js", "Tailwindcss", "Figma"]
+    },
+    {
+        id: 5,
         name: "Saiyan Pepe",
         desc: "The ultimate meme coin fighter on Polygon with its utilities!",
         intro: "saiyan",
         url: "https://saiyanpepe.xyz/",
         tools: ["Solidity", "Next.js", "Wagmi/Rainbowkit", "Tailwindcss"]
+    },
+    {
+        id: 5,
+        name: "Cheers Leo Community",
+        desc: "An immersing meme coin tokenized iconic hollywood actor, Leo Di Carprio.",
+        intro: "cheersleo",
+        url: "https://www.figma.com/proto/eKHwJ10Vu1rfUbKvLlSktT/Cheers-Leo-Meme-Project---Redesign-Web--Final",
+        tools: ["Figma"]
+    },
+    {
+        id: 5,
+        name: "Fruit Mini Game",
+        desc: "Mini app game design for fruit game project.",
+        intro: "fruitgame",
+        url: "https://www.figma.com/proto/lgRUEjSSvlCA1VpL6JVdVp/Telegram-Bot----Fruit-Game",
+        tools: ["Figma"]
+    },
+    {
+        id: 5,
+        name: "Aerith Flower Shop",
+        desc: "Meme coin tokenized Final Fantasy VII character Aerith Gainsborough, who was well known for her kindness and natural beauty.",
+        intro: "aerith",
+        url: "https://www.figma.com/proto/PnCOBgGEhxhlkxKZoWHgl5/Aerith---Finaly-Fantasy-Game---Final",
+        tools: ["Figma"]
+    },
+    {
+        id: 5,
+        name: "AI Tools Marketplace",
+        desc: "Web design for an AI tools marketplace.",
+        intro: "aimarket",
+        url: "https://www.figma.com/proto/U0qJaI1JnKEYB2LZ339SIv/Ai-Website-Design-Landing-Page--FInal",
+        tools: ["Figma"]
+    },
+    {
+        id: 5,
+        name: "Palm Shiba",
+        desc: "Palm Shiba meme coin design",
+        intro: "palmshiba",
+        url: "https://www.figma.com/proto/tmLCfYj8AsFCmz2zvA4cYk/Untitled",
+        tools: ["Figma"]
+    },
+    {
+        id: 5,
+        name: "AI Tools Marketplace",
+        desc: "Web design for an AI tools marketplace.",
+        intro: "aimarket",
+        url: "https://www.figma.com/proto/U0qJaI1JnKEYB2LZ339SIv/Ai-Website-Design-Landing-Page--FInal",
+        tools: ["Figma"]
     },
     {
         id: 9,
@@ -129,11 +217,11 @@ export const projectData = [
     },
     {
         id: 9,
-        name: "Mike Token",
-        desc: "Next Gen AI-Powered protocol, utilizing an advanced insurance fund system.",
-        intro: "mike",
-        url: "https://miketoken.io/",
-        tools: ["Solidity","React", "Figma", "Typescript", "Tailwindcss"]
+        name: "Bailey Meme",
+        desc: "Bailey is a project that seeks to turn online dog adoration into a vibrant, community-driven cryptocurrency movement.",
+        intro: "bailey",
+        url: "https://bailey-meme.vercel.app/",
+        tools: ["Next.js", "Typescript", "Tailwindcss", "Figma"]
     },
     {
         id: 9,
