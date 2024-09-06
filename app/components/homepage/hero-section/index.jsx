@@ -77,7 +77,9 @@ function HeroSection() {
               <MdDownload size={16} />
             </Link>
           </div>
-
+          <div className="mt-4 text-sm text-yellow-400 font-medium max-w-md">
+            Warning! Scammers may try to impersonate me using this website, please DM on my X account to verify my identity.
+          </div>
         </div>
         <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
