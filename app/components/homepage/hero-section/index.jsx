@@ -77,13 +77,13 @@ function HeroSection() {
               <span>Get Resume</span>
               <MdDownload size={16} />
             </Link>
-          </div>
+          </div>{/*
           <div className="mt-4 flex items-center text-sm text-yellow-400 font-medium max-w-md">
             <AlertTriangle className="mr-2 h-5 w-5" />
             <span>
               Warning! Scammers may try to impersonate me using this website, please DM on my X account to verify my identity.
             </span>
-          </div>
+          </div>*/}
         </div>
         <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
