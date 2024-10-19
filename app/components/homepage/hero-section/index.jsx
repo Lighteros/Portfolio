@@ -3,7 +3,7 @@
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import Link from "next/link";
-import { BsGithub, BsMailbox, BsLinkedin } from "react-icons/bs";
+import { BsGithub, BsMailbox, BsLinkedin, BsTelegram } from "react-icons/bs";
 import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
 import { MdDownload, MdOutlineEmail } from "react-icons/md";
 import { RiContactsFill } from "react-icons/ri";
@@ -47,6 +47,13 @@ function HeroSection() {
               className="transition-all text-pink-500 hover:scale-125 duration-300"
             >
               <BsGithub size={30} />
+            </Link>
+            <Link
+              href={personalData.telegram}
+              target='_blank'
+              className="transition-all text-pink-500 hover:scale-125 duration-300"
+            >
+              <BsTelegram size={30} />
             </Link>
             {/*<Link
               href={personalData.linkedIn}
