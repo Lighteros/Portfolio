@@ -1,6 +1,6 @@
 export const contactsData = {
     email: 'webm07871@gmail.com',
-    phone: '+8801608797655',
+    phone: '+819070207379',
     address: 'Sendai, Miyagi, Japan',
     github: 'https://github.com/Lighteros',
     facebook: 'https://www.facebook.com',
