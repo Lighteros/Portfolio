@@ -8,7 +8,7 @@ export const personalData = {
   github: 'https://github.com/Lighteros',
   facebook: 'https://www.facebook.com',
   linkedIn: 'https://www.linkedin.com/in/kaede-yukimura-72128a299',
-  twitter: 'https://twitter.com/leodev722',
+  twitter: 'https://x.com/LightningftwLeo',
   resume: "https://drive.google.com/file/d/1cDy-PYz1MIpQnVOuyh-xCyV2uGRyuxwb/view?usp=sharing",
   telegram: "https://t.me/leodev722"
 }
