@@ -5,7 +5,7 @@ export const contactsData = {
     github: 'https://github.com/Lighteros',
     facebook: 'https://www.facebook.com',
     linkedIn: 'https://www.linkedin.com/in/kaede-yukimura-72128a299',
-    twitter: 'https://x.com/leodev722',
+    twitter: 'https://x.com/LightningftwLeo',
     stackOverflow: 'https://stackoverflow.com',
     devUsername: "said7388"
 }
